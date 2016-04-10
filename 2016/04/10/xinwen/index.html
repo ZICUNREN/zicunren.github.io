@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>[xinwen] | ZIHUA站 | ZIHUA.Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="">
+  <meta name="description" content="JavaScriptweb标准网页制作技术（w3c）
+结构–html
+样式–css
+行为–javascript
+
+
+###DOM模型（documen object mode）–文档对象模型。
+
+节点–构成DOM模型的主要组成部分，也是JS的控制内容。
+节点类型：标签（元素）节点，属性节点，属性节点，文本节点。
+
+
+###jquery类库文件的引入。
+
+将jquery类库文件拷贝到网站目录下的js文">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[xinwen]">
+<meta property="og:url" content="http://yoursite.com/2016/04/10/xinwen/index.html">
+<meta property="og:site_name" content="ZIHUA站">
+<meta property="og:description" content="JavaScriptweb标准网页制作技术（w3c）
+结构–html
+样式–css
+行为–javascript
+
+
+###DOM模型（documen object mode）–文档对象模型。
+
+节点–构成DOM模型的主要组成部分，也是JS的控制内容。
+节点类型：标签（元素）节点，属性节点，属性节点，文本节点。
+
+
+###jquery类库文件的引入。
+
+将jquery类库文件拷贝到网站目录下的js文">
+<meta property="og:updated_time" content="2016-04-10T02:44:23.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="[xinwen]">
+<meta name="twitter:description" content="JavaScriptweb标准网页制作技术（w3c）
+结构–html
+样式–css
+行为–javascript
+
+
+###DOM模型（documen object mode）–文档对象模型。
+
+节点–构成DOM模型的主要组成部分，也是JS的控制内容。
+节点类型：标签（元素）节点，属性节点，属性节点，文本节点。
+
+
+###jquery类库文件的引入。
+
+将jquery类库文件拷贝到网站目录下的js文">
+  
+    <link rel="alternative" href="/atom.xml" title="ZIHUA站" type="application/atom+xml">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner">
+  <a href="javascript:;" class="header-icon waves-circle-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.jpg"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">zicunren</h5>
+        <a href="mailto:Liu.bin.coder@gmail.com" title="634206017@qq.com" class="mail">634206017@qq.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav">
+    
+        <li class="waves-block">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            主页
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/tags"  >
+            <i class="icon icon-lg icon-tags"></i>
+            Tags
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="https://github.com/yscoder" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="http://www.weibo.com/ysweb" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/"  >
+            <i class="icon icon-lg icon-link"></i>
+            测试
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>ZIHUA站 &copy; 2016</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-circle-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">[xinwen]</div>
+        
+        <a href="javascript:;" class="header-icon waves-circle-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">[xinwen]</h1>
+    <h5 class="subtitle">2016-04-10</h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      
+  <article id="post-xinwen" class="article article-type-post" itemscope itemprop="blogPost">
+    
+      <div class="post-meat flex-row">
+        <div class="flex-col"></div>
+      </div>
+      <div class="post-body">
+
+        <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share" data-title="[xinwen]" data-pic="/img/logo.jpg" data-summary="第一版测试" data-url="http://yoursite.com/2016/04/10/xinwen/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+          
+
+          
+          <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#JavaScript"><span class="post-toc-text">JavaScript</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#web标准网页制作技术（w3c）"><span class="post-toc-text">web标准网页制作技术（w3c）</span></a></li></ol></li></ol></li></ol>
+          </nav>
+          
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" itemprop="postContent"><h1 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h1><h3 id="web标准网页制作技术（w3c）"><a href="#web标准网页制作技术（w3c）" class="headerlink" title="web标准网页制作技术（w3c）"></a>web标准网页制作技术（w3c）</h3><ul>
+<li>结构–html</li>
+<li>样式–css</li>
+<li>行为–javascript</li>
+</ul>
+<hr>
+<p>###DOM模型（documen object mode）–文档对象模型。</p>
+<ul>
+<li>节点–构成DOM模型的主要组成部分，也是JS的控制内容。</li>
+<li>节点类型：标签（元素）节点，属性节点，属性节点，文本节点。</li>
+</ul>
+<hr>
+<p>###jquery类库文件的引入。</p>
+<ul>
+<li>将jquery类库文件拷贝到网站目录下的js文件夹中。</li>
+<li><p>在head内部应用。</p>
+  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"jq文件路径"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<hr>
+<p>###JS的运行机制</p>
+<p>时间发生对象–时间类型–事件影响对象–时间影响结果。</p>
+<blockquote>
+<p>例子：</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//翻译：当鼠标点击小图1的时候，就显示大图1。</span></span><br><span class="line">&lt;script type=<span class="string">"text.javascript"</span>&gt;</span><br><span class="line">	$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		$(<span class="string">'#小图1'</span>).click(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">			$(<span class="string">'#大图1'</span>).attr(<span class="string">'src'</span>,<span class="string">'img/XXX.jpg'</span>)</span><br><span class="line">		&#125;)</span><br><span class="line">	&#125;)</span><br><span class="line"> &lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+<hr>
+<p>###JS的书写位置</p>
+<ul>
+<li><p>body内部，在之前</p>
+  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> &lt;script type=<span class="string">"text.javascript"</span>&gt;</span><br><span class="line">       <span class="comment">//JS代码</span></span><br><span class="line">       $(<span class="string">'h1'</span>).css(<span class="string">'color'</span>,<span class="string">'red'</span>) <span class="comment">// 翻译：将H1的颜色改为红色。</span></span><br><span class="line">   </span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<pre><code><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">   &lt;script type="text.javascript"&gt;</span><br><span class="line">        //JS代码：	</span><br><span class="line">        $(document).ready(function()&#123;</span><br><span class="line">            $('h1').css('color','red')</span><br><span class="line">            $('h2').css('color','red')</span><br><span class="line">        &#125;)</span><br><span class="line">       	</span><br><span class="line">       	//翻译：在整个网页加载完后再将H1的颜色改为红色。</span><br><span class="line">       	//其中function为多行代码的容器。</span><br><span class="line">   &lt;/script&gt;	</span><br><span class="line">    ```			   		</span><br><span class="line">		  </span><br><span class="line">		  </span><br><span class="line">* head内部，在&lt;/head&gt;之前</span><br><span class="line">	</span><br><span class="line">    * 第一步：先把Jq文件路径加载进来。</span><br><span class="line">    ```javascript</span><br><span class="line">		&lt;script type = 'text/javascript' src='jq文件路径'&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+* 第二部：再去继续写后续代码。
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">  &lt;script type="text/javascript"&gt;</span><br><span class="line">	       //JS代码： </span><br><span class="line">         $(document).ready(function()&#123;</span><br><span class="line">		  	$('h1').css('color','red')</span><br><span class="line">			  $('h2').css('color','red')</span><br><span class="line">         &#125;)</span><br><span class="line">   &lt;/script&gt;</span><br><span class="line">   	```	</span><br><span class="line">   		</span><br><span class="line">###jquery函数（功能）</span><br><span class="line">	</span><br><span class="line">*  `$()`—找对象</span><br><span class="line">	```javascript </span><br><span class="line">        $('选择器')// 找到选择器对应的标签</span><br></pre></td></tr></table></figure>
+</code></pre><ul>
+<li><p><code>$(document)</code> —整个网页文档</p>
+</li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">		</span><br><span class="line">*   ```function()```—多行代码的容器（函数）</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> ```javascript</span><br><span class="line">      //语法：</span><br><span class="line">      function()&#123;</span><br><span class="line">              $(&apos;h1&apos;).css(&apos;color&apos;,&apos;red&apos;)</span><br><span class="line">              $(&apos;h1&apos;).css(&apos;font-size&apos;,&apos;60px&apos;)</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```javascript</span><br><span class="line">		   attr(&apos;属性名&apos;，&apos;值&apos;) //改变属性名对应的值 </span><br><span class="line"></span><br><span class="line">           attr(‘属性名’) // 获取属性值</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>css（）</code>—样式控制函数</p>
+ <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//语法：css（'样式名'，'值'）</span></span><br><span class="line">$(<span class="string">'选择器'</span>).css(<span class="string">'样式名'</span>，<span class="string">'值'</span>)</span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight plain"><figcaption><span>-当前事件发生对象（被点击的那个按钮）</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre><code>小明说：“今天晚上我请客”;
+小李说：“今天还是我请吧”
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">* ```next()```  -当前元素的下一个元素 </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">* `click()` -点击事件函数</span><br><span class="line">```javascript</span><br><span class="line">		语法：click(function()&#123;</span><br><span class="line"></span><br><span class="line">				JS代码</span><br><span class="line">             &#125;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>hover()  -鼠标移入/移出函数  </p>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">语法： hover(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123; </span><br><span class="line">         <span class="comment">//移入影响结果 </span></span><br><span class="line">       &#125;,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">         <span class="comment">//移出影响结果 </span></span><br><span class="line">       &#125;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><figure class="highlight plain"><figcaption><span>--滑动展开</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```JavaScript</span><br><span class="line">      slideDown(“fast/slow”)    //注：使用数字，单位是毫秒，不加引号</span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight plain"><figcaption><span>滑动卷起</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* ```addClass()```  为元素增加类</span><br><span class="line">```JavaScript</span><br><span class="line">$(‘选择器’).addClass(‘类名’)  //类名不需加点</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>removeClass() –删除元素的类名</p>
+</li>
+<li><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$(‘选择器’).removeClass() <span class="comment">//删除元素所有的类</span></span><br><span class="line">$(‘选择器’).removeClass(‘name’) <span class="comment">//删除指定名称为name的类</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight plain"><figcaption><span>弹出信息窗口</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">*  var 变量声明</span><br><span class="line">``` </span><br><span class="line">    Var  变量名=“值”</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>show() 元素显示</p>
+</li>
+<li><p>hide()  元素隐藏</p>
+</li>
+<li><p>fadeIn()  淡入</p>
+</li>
+<li><p>fadeOut() 淡出 </p>
+</li>
+<li><p>animate() 动画函数</p>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$(‘选择器’).animate(&#123; width:”值” &#125;)</span><br><span class="line">$(‘选择器’).animate(&#123; width:”值” &#125; , ’fast/slow’) <span class="comment">//速度是数值1000，无需引号</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><figure class="highlight plain"><figcaption><span>停止正在运行的所有动画</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">$(‘选择器’).stop().animate()</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>####交互的两种结构</p>
+<ul>
+<li>被控制端的位置相对比较固定            —  分离结构</li>
+<li>被控制端位置随控制端位置改变而改变    —  嵌套结构</li>
+</ul>
+<p>####关于jquery类库插件的应用步骤</p>
+<ul>
+<li>先引入jquery类库，再引入第三方插件;</li>
+<li>按照插件要求对DOM结构进行准确搭建（可在结构外侧或最内侧标签内增加内容，但不能破坏dom结构）;</li>
+<li>了解插件对css的要求并执行，可以补充但不能遗漏;</li>
+<li>了解插件所提供函数及相关功能（包括参数），并进行准确调用</li>
+</ul>
+</div>
+
+            
+<nav class="post-nav flex-row">
+  <div class="flex-col waves-block prev">
+    
+  </div>
+  <div class="flex-col waves-block next">
+    
+      <a href="/2016/04/09/hello-world/" title="Hello World" id="post-next" class="post-nav-link">
+        <span class="article-nav-title">下一篇</span>
+        <i class="icon icon-chevron-right"></i>
+      </a>
+    
+  </div>
+
+</nav>
+
+
+
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="xinwen" data-title="[xinwen]" data-url="http://yoursite.com/2016/04/10/xinwen/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"ysblog"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    
+
+  </article>
+
+
+
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-circle-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<div class="global-share" id="global-share" data-title="[xinwen]" data-pic="/img/logo.jpg" data-summary="第一版测试" data-url="http://yoursite.com/2016/04/10/xinwen/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
